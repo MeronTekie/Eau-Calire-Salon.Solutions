@@ -47,3 +47,5 @@
 /Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-three/EauClaireSalon.Solutions/HairSalon/obj/Debug/net5.0/HairSalon.genruntimeconfig.cache
 /Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-three/EauClaireSalon.Solutions/HairSalon/obj/Debug/net5.0/ref/HairSalon.dll
 /Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-three/EauClaireSalon.Solutions/HairSalon/bin/Debug/net5.0/appsettings.json
+/Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-three/EauClaireSalon.Solutions/HairSalon/obj/Debug/net5.0/Razor/Views/Clients/Details.cshtml.g.cs
+/Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-three/EauClaireSalon.Solutions/HairSalon/obj/Debug/net5.0/Razor/Views/Stylists/Details.cshtml.g.cs

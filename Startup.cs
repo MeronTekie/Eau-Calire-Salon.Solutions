@@ -29,7 +29,14 @@ namespace HairSalon
             .AddDbContext<HairSalonContext>(options => options
             .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
-
+        //   public void ConfigureServices(IServiceCollection services)
+        // {
+        //     services.AddMvc();
+        //     services.AddDbContext<HairSalonContext>(
+        //         dbContextOptions => dbContextOptions
+        //             .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], new MySqlServerVersion(ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])))
+        //     );
+        // }
 
     public void Configure(IApplicationBuilder app)
     {

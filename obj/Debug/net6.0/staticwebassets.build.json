@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "CXahwD1hgQc9orzATvswK6nL3S8TC0p8izKSFwaNrGc=",
+  "Source": "HairSalon",
+  "BasePath": "_content/HairSalon",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HairSalon/wwwroot",
+      "Source": "HairSalon",
+      "ContentRoot": "/Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-three/EauClaireSalon.Solutions/HairSalon/wwwroot/",
+      "BasePath": "_content/HairSalon",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -4,17 +4,19 @@
 }
 @model HairSalon.Models.Client
 <h1>Add a new Client</h1>
-@using (BeginForm())
+@using (Html.BeginForm())
 {
   @Html.LabelFor(model =>model.Name)
-  @Htmal.TextBoxFor(model =>model.Name)
+  @Html.TextBoxFor(model =>model.Name)
   @Html.LabelFor(model =>model.Wax)
-  @Htmal.TextBoxFor(model =>model.Wax)
+  @Html.TextBoxFor(model =>model.Wax)
   @Html.LabelFor(model =>model.Massage)
-  @Htmal.TextBoxFor(model =>model.Massage)
+  @Html.TextBoxFor(model =>model.Massage)
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")
   <input type="Submit" value ="Register"/>
 }
+<h4>@Html.ActionLink("Client's List","Index","Clients")</h4>
+
 
 
