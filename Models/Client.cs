@@ -7,6 +7,6 @@ namespace HairSalon.Models
     public string Wax  {get ;set;}
     public string Massage {get ;set ;}
     public int StylistId { get; set; }
-    public virtual Stylist Stylist { get; set; }
+    // public virtual Stylist Stylist { get; set; }
   }
 }
